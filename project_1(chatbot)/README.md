@@ -1,11 +1,11 @@
 <div align="center">
-
+---
 ╔══════════════════════════════════════════════╗
 ║   NEXUS — Rule-Based AI Chatbot              ║
 ║   DecodeLabs | AI Industrial Training Kit    ║
 ║   Project 1  | Batch 2026                    ║
 ╚══════════════════════════════════════════════╝
-
+---
 # NEXUS — Rule-Based AI Chatbot
 
 **Project 1 of the DecodeLabs AI Industrial Training Kit**
