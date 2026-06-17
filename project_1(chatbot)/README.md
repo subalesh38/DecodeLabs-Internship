@@ -195,12 +195,4 @@ Frameworks like NVIDIA NeMo and Llama Guard use this exact principle as guardrai
 
 ---
 
-##  Qualification Criteria (DecodeLabs)
-
--  Project 1 is **mandatory** — the essential start for every intern
--  Must be **verified for quality** before unlocking next week's projects
--  Completing this earns your **intern badge** 🛡️
-
----
-
 </div>
