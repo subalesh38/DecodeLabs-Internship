@@ -1,11 +1,13 @@
 <div align="center">
----
+
+```
 ╔══════════════════════════════════════════════╗
 ║   NEXUS — Rule-Based AI Chatbot              ║
 ║   DecodeLabs | AI Industrial Training Kit    ║
 ║   Project 1  | Batch 2026                    ║
 ╚══════════════════════════════════════════════╝
----
+```
+
 # NEXUS — Rule-Based AI Chatbot
 
 **Project 1 of the DecodeLabs AI Industrial Training Kit**
@@ -30,6 +32,8 @@ This project is the **foundation milestone** of the training program. Completing
 
 NEXUS is a **System 2** implementation — the skeleton that holds intelligence together.
 
+---
+
 ## Features
 
 ### Core (Project Spec Requirements)
@@ -48,8 +52,11 @@ NEXUS is a **System 2** implementation — the skeleton that holds intelligence 
 -  **Personality** — Jokes, motivation, emotional responses
 -  **Keyboard Interrupt Handling** — Graceful `Ctrl+C` shutdown
 
+---
+
 ## Architecture — The IPO Model
 
+```
 ┌─────────────────────────────────────────────────────┐
 │                   USER INPUT                        │
 │                       ↓                             │
@@ -72,20 +79,29 @@ NEXUS is a **System 2** implementation — the skeleton that holds intelligence 
 │  │  [HH:MM:SS] NEXUS: <response>               │   │
 │  └─────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
+```
 
 ### Why Dictionary over If-Elif?
 
+```
 If-Elif Chain  →  O(n) Linear  →  Slow, high technical debt  
 Dictionary     →  O(1) Constant →  Instant, scalable          
+```
 
 The if-elif ladder is an **anti-pattern** — it creates structural weakness and cascading failures as the knowledge base grows. NEXUS uses `dict.get()` for atomic lookup + fallback in a single operation.
 
+---
+
 ##  Project Structure
 
+```
 nexus-chatbot/
 │
 ├── chatbot.py        # Main chatbot engine
 └── README.md         # This file
+```
+
+---
 
 ## Getting Started
 
@@ -94,6 +110,7 @@ nexus-chatbot/
 
 ### Sample Session
 
+```
 ════════════════════════════════════════════════════
      NEXUS — Rule-Based AI Chatbot
   DecodeLabs | AI Industrial Training | 2026
@@ -119,6 +136,9 @@ nexus-chatbot/
   You: bye
   [10:30:15] NEXUS: Goodbye! 
    Session Stats: 4 messages | 15s duration
+```
+
+---
 
 ##  Supported Commands
 
@@ -132,6 +152,8 @@ nexus-chatbot/
 | **Utilities** | `time`, `help`, `joke`, `motivate me`, `give me advice` |
 | **Exit** | `exit`, `quit`, `bye`, `goodbye` |
 
+---
+
 ##  Key Concepts Demonstrated
 
 | Concept | Implementation |
@@ -144,19 +166,22 @@ nexus-chatbot/
 | **White-Box AI** | Every decision is fully traceable and explainable |
 | **Fallback Handling** | `dict.get(key, default)` atomic operation |
 
+---
 
 ## 🔭 The Conceptual Bridge — What Comes Next
 
-
+```
 Project 1 (This)              Project 2 (Next)
 ─────────────────             ──────────────────────────
 Discrete Mapping         →    Continuous Mapping
 Exact Match Lookup       →    Semantic / Approximate Match
 Hardcoded Key:Value      →    Vector Embeddings [0.2, 0.9, 0.4]
 Rule-Based Logic         →    ML / NLP Models
-
+```
 
 This project builds the **skeleton**. Future projects add the intelligence.
+
+---
 
 ##  The White Box Advantage
 
@@ -168,5 +193,14 @@ Rule-based systems are strategically necessary in the real world:
 
 Frameworks like NVIDIA NeMo and Llama Guard use this exact principle as guardrails over LLMs. NEXUS is your first implementation of that control layer.
 
+---
 
+##  Qualification Criteria (DecodeLabs)
 
+-  Project 1 is **mandatory** — the essential start for every intern
+-  Must be **verified for quality** before unlocking next week's projects
+-  Completing this earns your **intern badge** 🛡️
+
+---
+
+</div>
